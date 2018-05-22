@@ -1,0 +1,152 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+h1{
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    }
+.header-content p {
+    margin: 20px 0px 20px 0px;
+    font-size: 13px;
+}
+.header-content h1::before {
+    top: 95px;
+}
+.video-section {
+    padding: 100px 0px 50px 0;
+}
+.video-section::before {
+    width: 105%;
+    height: 38px;
+    top: -31px;
+    left: -2px;
+    transform: rotate(-3deg);
+}
+.video-content h2 {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: -50px;
+}
+.video-content h2::before {
+    width: 140px;
+    top: 63px;
+}
+.laptop {
+    display: none;
+}
+.service-section {
+    padding: 40px 0;
+}
+.service-content h2::before {
+    width: 190px;
+    height: 2px;
+    top: 50px;
+}
+.service-content p {
+    padding: 20px;
+}
+.w-100 {
+    height: 400px !important;
+}
+.speasing {
+    font-size: 14px;
+    line-height: 24px;
+}
+.carousel-caption {
+    bottom: 5px;
+}
+.pricing-table-section {
+    padding: 70px 0;
+}
+.pricing-heading h2 {
+    font-size: 28px;
+}
+.pricing-heading h2::before {
+    width: 180px;
+    top: 45px;
+}
+.pricing-heading p {
+    font-size: 13px;
+    line-height: 26px;
+    margin: 40px 0;
+}
+.images-icon {
+    padding-bottom: 120px;
+    padding-right: 15px;
+}
+.top-speacing {
+    padding-top: 0px;
+}
+.button-heading h2 {
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.join-btn {
+    margin: 0 auto;
+    display: block;
+}
+.latest-update-section {
+    padding: 70px 0px 40px 0;
+}
+.update-heading h2 {
+    font-size: 28px;
+}
+.update-heading h2::before {
+    top: 40px;
+}
+.update-heading p {
+    font-size: 13px;
+    margin: 40px 0;
+}
+.psd-template-section {
+    padding: 70px 0;
+}
+.boxes h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.psd-template-contante h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.psd-template-contante h2::before {
+    top: 30px;
+}
+.psd-template-contante p {
+}
+.download-content h2 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.download-content h2::before {
+    width: 220px;
+    top: 65px;
+}
+.download-content p {
+    font-size: 14px;
+}
+.left-side p {
+    font-size: 12px;
+}
+.right-side ul li {
+    font-size: 12px;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
